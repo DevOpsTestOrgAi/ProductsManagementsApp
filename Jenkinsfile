@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the source code from the Git repository
+                // Checkout the source code from the Git repository.
                 script {
                     def gitUrl = 'https://github.com/DevOpsTestOrgAi/ProductsManagementsApp.git'
                     def gitBranch = 'main' // Use your desired branch.
