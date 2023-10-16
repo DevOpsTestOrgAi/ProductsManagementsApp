@@ -2,7 +2,7 @@ spring:
     datasource:
         url: jdbc:mysql://localhost:3306/Devops
         username: root
-        password: zaid@11
+        password: urma@332
         driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
         hibernate:
